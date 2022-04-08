@@ -1,0 +1,135 @@
+
+/**********************     estilos para main - section *****************/
+.principal {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.uno, .tres, .cinco {
+                            /* border: 1px solid #000; */
+    height: 450px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    margin-bottom: 0px;
+} 
+.dos_slider, .cuatro, .seis {
+    width: 100%;
+                        /* border: 1px solid #000; */
+    height: 100vh;
+                        /* padding: 10px; */
+                        /* display: ;
+                        grid-template-rows: ; */
+}
+    h3 {
+    font-size: 2.2em;
+    margin-left: 30px;   
+} 
+hr {
+    width: 80%;
+    margin-left: 30px;
+    height: 0.2em;
+    background-color: #ccc;
+}
+.menu-dulce {
+    list-style: none;
+}
+.menu-dulce li {
+    padding: 10px;
+    font-size: 2em;
+    background: linear-gradient(to right, #ddd, #eee, #fff);
+    margin-top: 1px; 
+    padding-left: 5%;    
+} 
+
+                /* .pie {
+                    position: relative;
+                    bottom: -5%;
+                } */
+
+
+.menu-contacto-items {
+    font-size: 1.5em;
+}
+.menu-contacto-items-wa > a {
+    font-size: 0.9em;
+    color: magenta;
+    text-decoration: none;
+}
+
+.prepizzas {
+    padding: 10px;
+    font-size: 3.2em;
+    text-align: center;
+    background: linear-gradient(magenta, #FF5A9F, #3d062e);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+                      /* border-bottom: 2px double #FF5A9F; */
+    text-shadow: -1px 1px 0px magenta, 
+                 -2px 2px 0px #ff5a9f,
+                 -2px 3px 0px violet;
+} 
+.prepizzas-hr {
+    width: 90%;
+    height: 5px;
+    background-color: #FF5A9F;
+    border-radius: 0 50%;
+}
+          /* .avisos {
+               background: linear-gradient(to right, #ddd, #eee, #fff);
+           } */
+.lanzamiento {
+    position: relative;
+    font-size: 1.8em;
+    top: 30px;
+    left: 35.5%;
+}
+.lanzamiento-parrafo {
+    position: relative;
+    top: 70px;
+    left: 5.5%;
+    font-size: 1.5em;
+}
+.lanzamiento-parrafo-dos {
+    position: relative;
+    top: 70px;
+    left: 5.5%;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+    .principal {
+        display: block;
+        width: 100%;
+    }
+    footer a > i {
+        position: relative;
+        right: -320px;
+        font-size: 25px;
+        padding: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
