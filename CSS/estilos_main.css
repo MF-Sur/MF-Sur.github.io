@@ -64,7 +64,6 @@ hr {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-                      /* border-bottom: 2px double #FF5A9F; */
     text-shadow: -1px 1px 0px magenta, 
                  -2px 2px 0px #ff5a9f,
                  -2px 3px 0px violet;
