@@ -7,7 +7,7 @@
 }
 .uno, .tres, .cinco {
                             /* border: 1px solid #000; */
-    height: 450px;
+    height: 520px;
     display: grid;
     grid-template-rows: 1fr 1fr 5fr 1fr;
     margin-bottom: 0px;
@@ -117,6 +117,14 @@ hr {
         display: block;
         width: 100%;
     }
+    .dos_slider, .cuatro, .seis {
+    width: 100%;
+                        /* border: 1px solid #000; */
+    height: 90px;
+                        /* padding: 10px; */
+                        /* display: ;
+                        grid-template-rows: ; */
+}
     footer a > i {
         position: relative;
         right: -320px;
