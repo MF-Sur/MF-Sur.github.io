@@ -57,7 +57,7 @@ hr {
 }
 
 .prepizzas {
-    padding: 10px;
+    padding: 0px;
     font-size: 3.2em;
     text-align: center;
     background: linear-gradient(magenta, #FF5A9F, #3d062e);
@@ -69,6 +69,19 @@ hr {
                  -2px 2px 0px #ff5a9f,
                  -2px 3px 0px violet;
 } 
+.prepizzas-dos {
+    padding: 10px;
+    font-size: 1.8em;
+    text-align: center;
+    background: linear-gradient(magenta, #FF5A9F, #3d062e);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+                      /* border-bottom: 2px double #FF5A9F; */
+    text-shadow: -1px 1px 0px magenta, 
+                 -2px 2px 0px #ff5a9f,
+                 -2px 3px 0px violet;
+}
 .prepizzas-hr {
     width: 90%;
     height: 5px;
