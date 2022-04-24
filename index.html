@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fa-Sil Dulce & Salado - Versión dos</title>
-    <link rel="stylesheet" href="CSS/estilos_cabecera.css">
+    <link rel="stylesheet" href="CSS/reset_style.css">
+    <link rel="stylesheet" href="CSS/cabecera_style.css">
+    <link rel="stylesheet" href="CSS/barra_style.css">
     <link rel="stylesheet" href="CSS/estilos_main.css">
     <link rel="stylesheet" href="CSS/estilos_slider.css">
     <script src="https://kit.fontawesome.com/b236ed4af3.js" crossorigin="anonymous"></script>
@@ -13,30 +15,51 @@
 <body>
     <div class="contenedor">
 
-            <!-------------------- LOGO Y REDES SOCIALES ----------------------->
-        <header class="cabecera">
-            <a id="arriba"></a>
-            <div class="logo">
-                <div class="logo-titulo">
-                    <h1>Fa-Sil</h1>
-                </div>
-                <div class="logo-subtitulo">
-                    <h2>Dulce & Salado</h2>
+            <!--------------------------------------------------------------------------- 
+            LOGO Y REDES SOCIALES --------------------------------------------------------------------------->
+        <header class="header">
+            <!-- <a id="arriba"></a> -->
+            <div class="cabecera">
+                <div class="logo">    
+                    <div class="logo_imagen">
+                        <a id="arriba">
+                            <img src="imagen/fa_sil6_copia.png" class="logo_imagen-fa" alt="">
+                        </a>
+                    </div>               
                 </div>
             </div>
 
-            <div class="menu-social">
+            <div class="menu_social">
+                <nav class="menu_social-barra">
+                    <ul>
+                        <li><a href="https://www.facebook.com/MiguelAngelFErnandez1974" target="_blanc" title="Ir a Facebook"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/miguelangelfernandez1974" target="_blanc"><i class="fab fa-instagram-square"></i></a></li>
+                        <li><a href="https://twitter.com/MAFernandez1974" target="_blanc"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/MAF1974" target="_blanc"><i class="fab fa-linkedin"></span></i></a></li>
+                    </ul> 
+                </nav>                     
+            </div>
+
+            <!-- <div class="menu-social">
                  <nav class="menu-social-barra">
                      <ul>
                          <li><a href="https://www.facebook.com/MiguelAngelFErnandez1974" target="_blanc" title="Ir a Facebook"><i class="fab fa-facebook-square"></i></a></li>
                          <li><a href="https://www.instagram.com/miguelangelfernandez1974" target="_blanc"><i class="fab fa-instagram-square"></i></a></li>
                          <li><a href="https://twitter.com/MAFernandez1974" target="_blanc"><i class="fab fa-twitter-square"></i></a></li>
                          <li><a href="https://www.linkedin.com/in/MAF1974" target="_blanc"><i class="fab fa-linkedin"></span></i></a></li>
-                     </ul>                      
-            </div>
+                     </ul> 
+                 </nav>                   
+            </div> -->
         </header>   
 
-                <!------------------------- BARRA MENU  ---------------------------->
+
+
+
+
+
+          <!--------------------------------------------------------------------------- 
+            MENU BARRA NAVEGACIÓN
+            --------------------------------------------------------------------------->
             <div class="menu-items">
                 <input type="checkbox" id="btn-menu">
                 <label for="btn-menu"><i class="fas fa-bars"></i></label>
@@ -50,6 +73,17 @@
                     </ul>
                 </nav>
             </div>
+
+
+
+
+
+
+
+
+
+
+            
 
             <!---------------------------- CUERPO - MAIN ------------------------------>
         <main class="principal">

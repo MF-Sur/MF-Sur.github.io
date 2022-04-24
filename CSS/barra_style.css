@@ -1,0 +1,95 @@
+/************************   estillos para la barra de menu navegación ***********************/
+.menu-items {
+    position: relative;
+    width: 100%;
+    background-color: #ddd;
+}
+#btn-menu {
+    display: none;
+}
+.menu-items label {
+    cursor: pointer;
+    display: none;
+    padding: 15px;
+}
+
+.menu-items-barra ul {
+    display:  flex;
+    list-style: none;
+}
+.menu-items-barra li {
+    text-align: left;
+    width: 25%; 
+}
+.menu-items-barra ul li a {
+    display: block;
+    padding: 10px;
+    font-size:  20px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 700    ;
+    color: #ca0290;
+    transition: all 0.5s ease;
+}
+.menu-items-barra ul li a:hover {
+    color: #801171;
+    background-color: rgba(0,0,0,.3);
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .menu-items-barra li {
+        text-align: left;
+        width: 20%; 
+    }
+    
+    .menu-social-barra ul li a {
+        display: flex;
+        font-size:  40px;
+        top: -100px;
+        left: 30px;
+        padding-left:  10px;
+    }
+    
+
+     .menu-items label {
+        display: block;
+    }   
+
+    .menu-items-barra {
+        position: relative;
+        width: 100%;
+        margin-left: -100%;
+        background-color: #d1d1d1;
+        transition: all 0.5s;
+    }
+    .menu-items-barra ul {
+        flex-direction: column;
+    }
+    .menu-items-barra li {
+        width: 100%;
+    }
+    .menu-items-barra ul li a {
+        text-align: left;
+        padding-left: 15%;
+    }
+    #btn-menu:checked ~.menu-items-barra {
+        margin: 0;
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .menu-items {
+        margin-top: 20px;
+    }
+}

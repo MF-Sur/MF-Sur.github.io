@@ -1,0 +1,209 @@
+
+/**************************************************************************************************  Estilos para el header logo y barra social  
+**************************************************************************************************/
+
+
+
+.header {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax((100%, 25rem), 1fr)); */
+    grid-template-columns: 1fr 4fr;
+}
+
+.cabecera {
+    width: 100%;
+}
+.logo {
+    padding: 10px;
+}
+    .logo_imagen {
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+        .logo_imagen .logo_imagen-fa {
+            width: 85%;
+        }
+
+
+.menu_social-barra ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-content: center; */
+    align-items: center;
+}
+    .menu_social-barra ul li {
+        margin-top: 7%;
+    }
+        .menu_social-barra ul li a {
+            font-size: 2.5em;
+            text-decoration: none;
+            color: #FA5EA2;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+@media (max-width: 768px) {
+    /* .cabecera {
+        width: 100%;
+        display: grid; 
+        
+        height: 170px;
+    } */
+    
+    .menu-social-barra ul li a {
+        /* display: block; */
+        display: flex;
+        font-size:  40px;
+        top: -100px;
+        left: 30px;
+        padding-left:  10px;
+    }
+    
+
+     .menu-items label {
+        display: block;
+    }   
+
+    .menu-items-barra {
+        position: relative;
+        width: 100%;
+        margin-left: -100%;
+        background-color: #d1d1d1;
+        transition: all 0.5s;
+    }
+    .menu-items-barra ul {
+        flex-direction: column;
+    }
+    .menu-items-barra li {
+        width: 100%;
+    }
+    .menu-items-barra ul li a {
+        text-align: left;
+        padding-left: 15%;
+    }
+    #btn-menu:checked ~.menu-items-barra {
+        margin: 0;
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-items {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cabecera {
+        margin-left: 37%;
+    }
+    .header {
+        display: grid;
+        /* grid-template-columns: repeat(auto-fill, minmax((100%, 25rem), 1fr)); */
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr 1fr; */
+    }
+}
+
+@media (max-width: 400px) {
+    .cabecera {
+        margin-left: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
